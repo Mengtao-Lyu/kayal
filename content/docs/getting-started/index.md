@@ -8,6 +8,8 @@ summary: "This page contains installation instructions for both Hugo and Kayal, 
 tags: ["hugo", "kayal", "install"]
 ---
 
+This page contains installation instructions for both Hugo and Kayal, as well as instructions for future updates.
+
 ## Install Hugo
 
 - First Install Hugo, Simply follow the standard Hugo [Quick Start](https://gohugo.io/getting-started/quick-start/) procedure to get setup and running quickly.
