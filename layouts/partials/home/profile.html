@@ -13,6 +13,15 @@
   </div>
 {{ end }}
 
+<!-- Add bio displayed -->
+{{/* bio */}}
+{{ with .Site.Params.homepage.profile.bio }}
+  <div class="bio">
+    {{ . | markdownify }}
+  </div>
+{{ end }}
+
+
 {{/* Content from _index.html */}}
 {{ .Content }}
 

@@ -340,10 +340,11 @@ body:not(.dark) #sun {
 }
 
 .avatar img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   padding: 8px;
   border-radius: 50%;
+  
 }
 
 .avatar.top {
@@ -362,10 +363,26 @@ body:not(.dark) #sun {
   float: right;
 }
 
+
+/* Add the new bio styles here */
+.bio {
+  text-align: center;
+  margin: 1em auto;
+  max-width: 600px;
+  display: block;
+  color: var(--primary-color);
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+
 .featured {
   margin-top: 0.2rem;
   clear: both;
 }
+
 
 .socials span {
   font-size: 1.5rem;
